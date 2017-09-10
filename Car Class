@@ -1,0 +1,26 @@
+public class Car extends Vehicle{
+    private String name;
+    private String carId;
+    private int numOfDoors=0;
+
+    public Car(String carId,int numOfDoors,String color,String brand){
+        super(color,brand);
+        this.name="Car";
+        this.carId=carId;
+        this.numOfDoors=numOfDoors;
+
+    }
+
+    public String getCarId(){
+        return carId;
+    }
+
+    public int getNumOfDoors(){
+        return numOfDoors;
+    }
+
+    public String getName(){
+        return name;
+    }
+
+}
