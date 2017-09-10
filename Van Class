@@ -1,0 +1,24 @@
+public class Van extends Vehicle {
+    private String name;
+    private String vanId;
+    private double cargoVolum=0.0;
+
+    public Van(String vanId,double cargoVolume,String color,String brand){
+        super(color,brand);
+        this.name="Van";
+        this.vanId=vanId;
+        this.cargoVolum=cargoVolum;
+    }
+
+    public String getName(){
+        return name;
+    }
+
+    public String getVanId(){
+        return vanId;
+    }
+
+    public double getCargoVolume(){
+        return cargoVolum;
+    }
+}
