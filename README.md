@@ -6,8 +6,7 @@ This should be create using OOP concept in JAVA
 required	to	complete	a	program	that	implements	a	basic	Car	Park	System.	The	car	park	has	a	maximum	of	20	parking	lots	and	only	cars,	vans	and	motorbikes	can	park	in	the	parking.	
 	In	this	assignment,	you	will	be	required	to	implement	the	following	functionality:	
 	
-	
-	1.	Design	and	implement	a	class	Vehicle	(abstract)	and	the	subclasses	Car,	Van,	Motorbike.	The	classes	should	include	appropriate	methods	and	hold	information	about	the	ID	plate	of	the	vehicle,	the	brand	of	the	vehicle	and	the	entry	time/date	in	the	parking.	
+1.Design	and	implement	a	class	Vehicle	(abstract)	and	the	subclasses	Car,	Van,	Motorbike.	The	classes	should	include	appropriate	methods	and	hold	information	about	the	ID	plate	of	the	vehicle,	the	brand	of	the	vehicle	and	the	entry	time/date	in	the	parking.	
 	In	particular:	
   • The	Car	class	should	also	include	appropriate	methods	and	hold	information	about	the	number	of	the	doors	of	the	car	and	the	color.		
   • The	Van	class	should	also	include	methods	and	information	about	the	cargo	volume	of	the	van.		
